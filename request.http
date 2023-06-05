@@ -1,4 +1,4 @@
-POST http://localhost:8080/ws/
+POST http://localhost:8080/wsec1e1/
 Content-Type: text/xml
 
 
@@ -15,7 +15,7 @@ Content-Type: text/xml
 
 ###
 
-POST http://localhost:8080/ws/
+POST http://localhost:8080/wsec1e1/
 Content-Type: text/xml
 
 
@@ -31,7 +31,7 @@ Content-Type: text/xml
 
 ###
 
-POST http://localhost:8080/ws/
+POST http://localhost:8080/wsec1e1/
 Content-Type: text/xml
 
 
