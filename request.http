@@ -7,7 +7,7 @@ Content-Type: text/xml
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getCountryRequest>
-         <gs:name>Poland</gs:name>
+         <gs:name>lunes</gs:name>
       </gs:getCountryRequest>
    </soapenv:Body>
 </soapenv:Envelope>
@@ -24,7 +24,7 @@ Content-Type: text/xml
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getCountryRequest>
-         <gs:name>Spain</gs:name>
+         <gs:name>martes</gs:name>
       </gs:getCountryRequest>
    </soapenv:Body>
 </soapenv:Envelope>
@@ -40,7 +40,7 @@ Content-Type: text/xml
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getCountryRequest>
-         <gs:name>peru</gs:name>
+         <gs:name>miercoles</gs:name>
       </gs:getCountryRequest>
    </soapenv:Body>
 </soapenv:Envelope>
