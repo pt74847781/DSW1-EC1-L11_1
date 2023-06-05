@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import io.spring.guides.gs_producing_web_service.Country;
-import io.spring.guides.gs_producing_web_service.Currency;
+
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
@@ -16,34 +16,29 @@ public class CountryRepository {
 	@PostConstruct
 	public void initData() {
 		Country spain = new Country();
-		spain.setName("Spain");
-		spain.setCapital("Madrid");
-		spain.setCurrency(Currency.EUR);
-		spain.setPopulation(46704314);
+		spain.setName("lunes");
+		spain.setCapital("monday");
+		
 
 		countries.put(spain.getName(), spain);
 
 		Country pe = new Country();
-	    pe.setName("peru");
-		pe.setCapital("lima");
-		pe.setCurrency(Currency.PEN);
-		pe.setPopulation(424567855);
+	    pe.setName("martes");
+		pe.setCapital("monday");
+		
 
 		countries.put(pe.getName(), pe);
 
 		Country poland = new Country();
-		poland.setName("Poland");
-		poland.setCapital("Warsaw");
-		poland.setCurrency(Currency.PLN);
-		poland.setPopulation(38186860);
-
+		poland.setName("miercoles");
+		poland.setCapital("monday");
+		
 		countries.put(poland.getName(), poland);
 
 		Country uk = new Country();
-		uk.setName("United Kingdom");
-		uk.setCapital("London");
-		uk.setCurrency(Currency.GBP);
-		uk.setPopulation(63705000);
+		uk.setName("jueves");
+		uk.setCapital("monday");
+		
 
 		countries.put(uk.getName(), uk);
 	}
