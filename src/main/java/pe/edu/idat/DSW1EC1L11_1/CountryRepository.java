@@ -24,20 +24,20 @@ public class CountryRepository {
 
 		Country martes = new Country();
 	    martes.setName("martes");
-		martes.setCapital("monday");
+		martes.setCapital("Tuesday");
 		
 
 		countries.put(martes.getName(), martes);
 
 		Country miercoles = new Country();
 		miercoles.setName("miercoles");
-		miercoles.setCapital("monday");
+		miercoles.setCapital("Wednesday");
 		
 		countries.put(miercoles.getName(), miercoles);
 
 		Country jueves = new Country();
 		jueves.setName("jueves");
-		jueves.setCapital("monday");
+		jueves.setCapital("Thursday");
 		
 
 		countries.put(jueves.getName(), jueves);
