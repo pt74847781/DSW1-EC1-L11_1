@@ -15,32 +15,32 @@ public class CountryRepository {
 
 	@PostConstruct
 	public void initData() {
-		Country spain = new Country();
-		spain.setName("lunes");
-		spain.setCapital("monday");
+		Country lunes = new Country();
+		lunes.setName("lunes");
+		lunes.setCapital("monday");
 		
 
-		countries.put(spain.getName(), spain);
+		countries.put(lunes.getName(), lunes);
 
-		Country pe = new Country();
-	    pe.setName("martes");
-		pe.setCapital("monday");
+		Country martes = new Country();
+	    martes.setName("martes");
+		martes.setCapital("monday");
 		
 
-		countries.put(pe.getName(), pe);
+		countries.put(martes.getName(), martes);
 
-		Country poland = new Country();
-		poland.setName("miercoles");
-		poland.setCapital("monday");
+		Country miercoles = new Country();
+		miercoles.setName("miercoles");
+		miercoles.setCapital("monday");
 		
-		countries.put(poland.getName(), poland);
+		countries.put(miercoles.getName(), miercoles);
 
-		Country uk = new Country();
-		uk.setName("jueves");
-		uk.setCapital("monday");
+		Country jueves = new Country();
+		jueves.setName("jueves");
+		jueves.setCapital("monday");
 		
 
-		countries.put(uk.getName(), uk);
+		countries.put(jueves.getName(), jueves);
 	}
 
 	public Country findCountry(String name) {
